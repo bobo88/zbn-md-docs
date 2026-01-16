@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "szzbn",
+      "passwordHash": "$2a$10$tCs/bQshqDqp/m/4JfZX0ugYrYiPLfInMVlr.j7whqTDuW6wlpJQu",
+      "role": "admin"
+    },
+    {
+      "username": "admin",
+      "passwordHash": "$2a$10$LP0878mjNgZsP27hIxrvKudVYSHMDvTwJSrlwe3gWuDgMIo8HeHTm",
+      "role": "admin"
+    }
+  ],
+  "security": {
+    "saltRounds": 10,
+    "sessionTimeout": 3600000
+  }
+}

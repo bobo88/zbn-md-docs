@@ -1,0 +1,19 @@
+{
+  "name": "docs-szzbn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs --no-cache --silent"
+  },
+  "devDependencies": {
+    "@umijs/fabric": "^3.0.0",
+    "v-dialogs": "^2.2.0",
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "bcryptjs": "^2.4.3"
+  }
+}
